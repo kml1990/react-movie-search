@@ -1,14 +1,49 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.main.container {
+  margin-top: 2em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+main .ui.list .item:before {
+  display: none;
+  content: '';
+}
+
+main .ui.list {
+  margin-left: 0;
+}
+
+main .ui.list a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+main .ui.list a img {
+  margin-right: 2em;
+}
+
+main.movie-info {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main.movie-info > .ui.labeled.icon.button {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+main.movie-info .card .header span {
+  font-size: 0.6em;
+}
+
+main.movie-info .card .description .list .item {
+  padding: 0.5em 0;
+  line-height: 1.5em;
+}
+
+main.movie-info .card .description .list .item .label {
+  min-width: 6em;
 }
