@@ -9,7 +9,7 @@ import MovieItem from './components/MovieItem';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Provider store={store}>
           <Redirect from="/" to="movies" />
           <Route exact path="/movies" component={MoviesContainer} />
