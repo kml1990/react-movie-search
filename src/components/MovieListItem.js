@@ -7,7 +7,7 @@ export const MovieListItem = ({ imdbID, title, year, poster }) => {
   }
   return (
     <li className="item">
-      <Link to={imdbID}>
+      <Link to={'/movies/' + imdbID}>
         <img src={poster} className="ui mini rounded image" alt="" />
         <div className="content">
           <h4 className="header">{title}</h4>

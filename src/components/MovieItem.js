@@ -33,7 +33,7 @@ class MovieItem extends Component {
   render() {
     return (
       <main className="movie-info">
-        <Link to="/" className="ui left labeled icon button">
+        <Link to="/movies" className="ui left labeled icon button">
           <i className="left arrow icon" />
           Back
         </Link>
