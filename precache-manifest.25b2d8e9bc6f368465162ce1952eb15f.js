@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/react-movie-search/static/js/runtime~main.4fcd7bb7.js"
   },
   {
-    "revision": "687d5864ea4ee963b814",
-    "url": "/react-movie-search/static/js/main.d8d12451.chunk.js"
+    "revision": "a2a1db7212596a42f745",
+    "url": "/react-movie-search/static/js/main.b500e899.chunk.js"
   },
   {
     "revision": "442d16539be0f242c163",
@@ -20,11 +20,11 @@ self.__precacheManifest = [
     "url": "/react-movie-search/static/js/2.72278499.chunk.js"
   },
   {
-    "revision": "687d5864ea4ee963b814",
+    "revision": "a2a1db7212596a42f745",
     "url": "/react-movie-search/static/css/main.f49be585.chunk.css"
   },
   {
-    "revision": "a386bfd91a1ed5d50d5503542246a720",
+    "revision": "221bcf608ea849e74d788c473fb91eb2",
     "url": "/react-movie-search/index.html"
   }
 ];
